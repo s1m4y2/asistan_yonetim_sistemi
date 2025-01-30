@@ -8,6 +8,12 @@ Asistan Yönetim Sistemi, asistanların müşteri görüşmelerini yönetmesine 
 - **Görüşme Yönetimi**: Asistanların müşteri görüşmelerini kaydetmesini ve yönetmesini sağlar.
 - **Aylık Prim Takibi**: Asistanların prim bilgilerini görüntüleyebilmesini sağlar.
 - **Prim İtiraz Sistemi**: Asistanlar, yalnızca güncel aya ait primler için itirazda bulunabilir.
+- **Takım Hiyerarşisi**:
+  - **Asistanlar**, **Takım Liderleri**'ne bağlıdır.
+  - **Takım Liderleri**, **Grup Yöneticileri**'ne bağlıdır.
+  - **Takım Liderleri**, asistanların işlerini görüntüleyebilir ve yönetebilir.
+  - **Grup Yöneticileri**, takım liderlerinin işlemlerini takip edebilir.
+  - **Takım Lideri bir değişiklik yaptığında**, grup yöneticisine otomatik olarak **e-posta bildirimi** gönderilir.
 - **Güvenli Oturum Yönetimi**: Kullanıcı oturum kontrolü ile yetkisiz erişimlerin önüne geçilir.
 
 ## 🛠️ Kullanılan Teknolojiler
@@ -47,12 +53,16 @@ Asistan Yönetim Sistemi, asistanların müşteri görüşmelerini yönetmesine 
 2. **Görüşme kaydeder ve yönetir.**
 3. **Aylık prim listesini görüntüler.**
 4. **Son aya ait prim için gerekirse itirazda bulunur.**
+5. **Takım liderleri asistanların işlemlerini yönetir.**
+6. **Grup yöneticileri takım liderlerinin işlemlerini takip eder.**
+7. **Takım lideri bir değişiklik yaptığında, grup yöneticisine e-posta bildirimi gider.**
 
 ## 🏗️ Geliştirme Aşamaları
 - [x] Kullanıcı oturum yönetimi
 - [x] Müşteri görüşme yönetimi
 - [x] Prim bilgisi gösterimi
 - [x] Prim itiraz sistemi
+- [x] Takım lideri ve grup yöneticisi yetkilendirme
 - [ ] Yönetici paneli (Geliştirme aşamasında)
 
 ## 🤝 Katkıda Bulunma
@@ -63,7 +73,7 @@ Bu proje **MIT Lisansı** ile lisanslanmıştır.
 
 ## 📧 İletişim
 Herhangi bir sorunuz veya öneriniz varsa benimle iletişime geçebilirsiniz:
-- **E-posta**: simaynglu@gmail.com
+- **E-posta**: simaygnlu@gmail.com
 - **LinkedIn**: www.linkedin.com/in/simay-ayanoğlu-0b02a8255
 
 ---
