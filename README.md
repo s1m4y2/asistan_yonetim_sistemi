@@ -63,8 +63,8 @@ Bu proje **MIT Lisansı** ile lisanslanmıştır.
 
 ## 📧 İletişim
 Herhangi bir sorunuz veya öneriniz varsa benimle iletişime geçebilirsiniz:
-- **E-posta**: example@example.com
-- **LinkedIn**: [Profiliniz](https://linkedin.com/in/example)
+- **E-posta**: simaynglu@gmail.com
+- **LinkedIn**: www.linkedin.com/in/simay-ayanoğlu-0b02a8255
 
 ---
 **💡 Not:** Bu proje, asistanların iş süreçlerini daha verimli yönetmelerine yardımcı olmak için geliştirilmiştir. Kullanım sırasında herhangi bir hata ile karşılaşırsanız, lütfen bir hata bildirimi oluşturun! 🚀
